@@ -5,7 +5,7 @@ export const workshop = {
   subtitle: 'Learning, Acting, and Adapting with Foundation Models',
   conference: 'AACL-IJCNLP 2026',
   conferenceUrl: 'https://2026.aaclnet.org/',
-  websiteUrl: 'https://bupterlxp.github.io/reasoning-to-agency-2026/',
+  websiteUrl: 'https://agent-aacl-workshop.github.io/',
   venueUrl: 'https://2026.aaclnet.org/venue',
   location: 'Hengqin, Zhuhai, China',
   venue: 'Tianmu Melody Convention Exhibition Center',

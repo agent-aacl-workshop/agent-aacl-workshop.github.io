@@ -93,9 +93,19 @@ PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/path/to/chrome npm test
 
 ## GitHub Pages
 
-仓库：[bupterlxp/reasoning-to-agency-2026](https://github.com/bupterlxp/reasoning-to-agency-2026)。
+仓库：[agent-aacl-workshop/agent-aacl-workshop.github.io](https://github.com/agent-aacl-workshop/agent-aacl-workshop.github.io)。
 
-网站：[https://bupterlxp.github.io/reasoning-to-agency-2026/](https://bupterlxp.github.io/reasoning-to-agency-2026/)。
+网站：[https://agent-aacl-workshop.github.io/](https://agent-aacl-workshop.github.io/)。
+
+首次迁移：
+
+1. 使用现有 GitHub 账号创建名为 `agent-aacl-workshop` 的免费组织。
+2. 在该组织下创建公开仓库 `agent-aacl-workshop.github.io`，上传本项目代码。
+3. 在新仓库的 **Settings → Pages → Build and deployment → Source** 中选择 **GitHub Actions**。
+4. 在 **Actions → Deploy workshop website → Run workflow** 中选择 `main` 并运行，等待部署成功。
+5. 检查新网址的页面、图片和 CFP 下载链接；新站确认可用后，可将原站改为跳转页。
+
+`github.io` 的子域名由所属账号或组织名决定，组织名和上述仓库名都必须匹配。资源使用相对路径，已兼容根目录部署，无需设置自定义域名或添加 `CNAME` 文件。
 
 Pages 使用 **GitHub Actions** 发布。推送到 `main` 分支会自动运行 **Deploy workshop website**，构建并更新网站；也可以在 Actions 页面手动运行该 workflow。构建无需个人访问令牌，使用 GitHub 自动提供的部署权限。
 
