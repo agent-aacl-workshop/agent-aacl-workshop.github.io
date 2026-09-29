@@ -36,7 +36,7 @@ npm install --cache /tmp/aacl-npm-cache
 
 - `workshop.organizers`：九位组织者，按提供的顺序排列。可添加 `url`（个人主页）和 `image`（照片路径）。未提供照片时显示姓名首字母。
 - `workshop.speakers`：确定嘉宾后添加姓名、单位、主页、照片。
-- `workshop.submissionUrl`：目前为 `null`。填入真实投稿地址后，页面自动显示投稿按钮。
+- `workshop.submissionUrl`：投稿地址，同时用于网页投稿按钮和下载的 CFP。设为 `null` 时显示待公布提示。
 - `workshop.contactEmail`：填入联系邮箱后，组织者区自动出现联系入口，下载的 CFP 也会包含邮箱。
 - `workshop.confirmedWorkshopDay`：具体日期确认后填入 `YYYY-MM-DD`。当前 `null` 表示 11 月 9–10 日仅为 workshop 日期窗口；日历将此事件标为 tentative。
 - `topics`：六个投稿研究方向与子主题。
@@ -56,7 +56,7 @@ npm install --cache /tmp/aacl-npm-cache
 
 ### 待确认内容
 
-- 投稿平台链接、联系邮箱、页数限制。
+- 联系邮箱、页数限制。
 - 是否收录 ACL Anthology、是否提供非存档选项、同一工作向其他 venue 投稿的具体政策。
 - 是否接收 ARR 已审稿论文及对应 commitment 时间。使用 ARR 模板不等于确认接收 ARR commitment。
 - 具体举办日、房间、讲者、最终议程、线上参与和报告要求。

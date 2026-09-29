@@ -19,8 +19,9 @@ test('published content, internal links, assets, and organizer affiliations are 
   await expect(page.locator('.person').filter({ hasText: 'Jiayi Tian' })).toContainText('Alibaba')
   await expect(page.locator('#cfp')).toContainText('Double-blind review')
   await expect(page.locator('#cfp')).toContainText('ACL / ARR template')
-  await expect(page.locator('.submission-pending')).toContainText(
-    'publication policy are to be confirmed',
+  await expect(page.getByRole('link', { name: 'Submit your paper' })).toHaveAttribute(
+    'href',
+    'https://github.com/agent-aacl-workshop/agent-aacl-workshop.github.io.git',
   )
   await expect(page.locator('.workshop-date-row')).toContainText('exact day to be announced')
   const missingTargets = await page

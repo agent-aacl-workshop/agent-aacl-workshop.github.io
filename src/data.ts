@@ -9,7 +9,8 @@ export const workshop = {
   venueUrl: 'https://2026.aaclnet.org/venue',
   location: 'Hengqin, Zhuhai, China',
   venue: 'Tianmu Melody Convention Exhibition Center',
-  submissionUrl: null as string | null,
+  submissionUrl:
+    'https://github.com/agent-aacl-workshop/agent-aacl-workshop.github.io.git' as string | null,
   contactEmail: null as string | null,
   // November 9–10 is the official workshop window, not a confirmed two-day event.
   workshopStart: '2026-11-09',
@@ -163,7 +164,7 @@ export const faqs = [
   {
     question: 'What are the paper format and review requirements?',
     answer:
-      'Please use the official ACL/ARR template in review mode and submit an anonymized PDF. Review will be double-blind: author identities must not appear in the paper or supplementary materials. Final page limits and the submission portal will be announced here. Please follow the ACL guidance for citations and anonymized artifacts.',
+      'Please use the official ACL/ARR template in review mode and submit an anonymized PDF. Review will be double-blind: author identities must not appear in the paper or supplementary materials. Final page limits will be announced here. Please follow the ACL guidance for citations and anonymized artifacts.',
   },
   {
     question: 'Can I submit a paper already reviewed by ARR?',
