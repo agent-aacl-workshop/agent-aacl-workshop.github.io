@@ -144,13 +144,13 @@ export const deadlines = [
   {
     id: 'camera-ready',
     label: 'Camera-ready papers due',
-    date: '2026-10-12',
+    date: '2026-10-19',
     note: 'Final versions from authors',
   },
   {
     id: 'proceedings',
     label: 'Proceedings due',
-    date: '2026-10-15',
+    date: '2026-10-22',
     note: 'Organizers · if publishing proceedings',
   },
 ]
@@ -174,7 +174,7 @@ export const faqs = [
   {
     question: 'Will accepted papers appear in the ACL Anthology?',
     answer:
-      'The publication policy, including whether proceedings will appear in the ACL Anthology, is to be confirmed. Archival status and policies affecting submission of the same work to other venues will be stated in the final guidelines. The October 15 proceedings deadline is for organizers if archival proceedings are produced; it is not an additional author deadline.',
+      'The publication policy, including whether proceedings will appear in the ACL Anthology, is to be confirmed. Archival status and policies affecting submission of the same work to other venues will be stated in the final guidelines. The October 22 proceedings deadline is for organizers if archival proceedings are produced; it is not an additional author deadline.',
   },
   {
     question: 'When and where will the workshop take place?',
