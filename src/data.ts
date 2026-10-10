@@ -138,7 +138,7 @@ export const deadlines = [
   {
     id: 'notification',
     label: 'Notification of acceptance',
-    date: '2026-10-07',
+    date: '2026-10-14',
     note: 'Decisions sent to authors',
   },
   {
